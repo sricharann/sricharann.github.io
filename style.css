@@ -1,0 +1,49 @@
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+body {
+	background-color: white;
+    color:rgb(77, 77, 77) ;
+    margin: 0;
+}
+header {
+	height: 120px;
+    font-family: Lato, Arial, sans-serif;
+	background-color: #F4F4F4;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    padding: 10px;
+}
+#content {
+	padding-top: 60px;
+	min-height: 230px;
+}
+footer {
+    text-align: center;
+    height: 60px;
+    font-family: Lato, Arial, sans-serif;
+    color: rgb(77, 77, 77);
+	background-color: rgb(244, 244, 244);
+    margin-top: 26px;
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 662px;
+    padding: 0 20px; }
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+a {
+   color:rgb(112, 89, 243); 
+}
