@@ -19,6 +19,7 @@ body {
 header {
 	height: 120px;
     font-family: Lato, Arial, sans-serif;
+    font-size: larger;
 	background-color: #F4F4F4;
     text-align: center;
     color: rgb(77, 77, 77);
@@ -52,3 +53,7 @@ p {
 a {
    color:rgb(112, 89, 243);  /* set the text color purple */
 }
+
+a:hover {
+    color: rgb(255, 0, 13);
+  }
